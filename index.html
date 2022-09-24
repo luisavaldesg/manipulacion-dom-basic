@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM Básica</title>
+</head>
+<body>
+    <h1>Manipulación del DOM Básica</h1>
+    <p class="p1">This is the paragraph</p>
+    <p class="p2">This is the second paragraph</p>
+    <p id="specialParagraph">This is the third paragraph</p>
+    <input type="text" placeholder="Write something here...">
+    
+
+
+    <form id="form">
+        <label>Enter first number:</label>
+        <input type="number" id="calculo1" placeholder="Number 1:">
+        <label>Enter second number:</label>
+        <input type="number" id="calculo2" placeholder="Number 2:">
+        <!-- <input onchange="console.log('change this imput')" type="number" id="number2" placeholder="Number 2:"> -->
+        <!-- <input type="submit" id="btnCalculate" value="Submit"> -->
+        <!-- <button id="btnCalculate" onclick="calculate()">Calculate</button> -->
+        <button id="btnCalcularSum">+</button>
+        <button id="btnCalcularRest">-</button>
+        <button id="btnCalcularMult">*</button>
+        <button id="btnCalcularDiv">/</button>
+    </form>
+    <div>   
+        <p id="result">
+
+        </p>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
